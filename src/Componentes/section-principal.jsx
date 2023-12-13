@@ -1,8 +1,13 @@
 import './section-principal.css';
 import { ProductComponent } from './Produto';
+import { FooterComponent } from './Footer';
 export const PrincipalSection = () => {
 
     const products = [
+        {
+            image: "https://img.freepik.com/fotos-gratis/variedade-de-ferramentas-habilidosas-com-espaco-de-copia_23-2148732451.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1698710400&semt=ais",
+            title: "Ferramenta"
+        },
         {
             image: "https://img.freepik.com/fotos-gratis/variedade-de-ferramentas-habilidosas-com-espaco-de-copia_23-2148732451.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1698710400&semt=ais",
             title: "Ferramenta"
@@ -59,7 +64,23 @@ export const PrincipalSection = () => {
                 </div>
             </div>
 
-
+            <div className="contato">
+                <div className="card-contato">
+                    <div className="btn-wpp">
+                        <button className="wpp">ENVIE UMA MENSAGEM <img src=".\src\assets\WhatsApp.png" alt="" /></button>
+                    </div>
+                    <div className="contato-title">
+                        <h3>ENTRE EM CONTATO CONOSCO PARA MAIS INFORMAÇÕES!</h3>
+                    </div>
+                    <div className="contato-form">
+                        <input type="text" placeholder='Nome'/>
+                        <input type="text" placeholder='Email'/>
+                        <textarea placeholder="Digite sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <FooterComponent />
         </div>
     );
 }
