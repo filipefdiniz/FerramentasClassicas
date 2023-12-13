@@ -11,9 +11,9 @@ export const FooterComponent = () => {
                     <a href="">POLÍTICA DE PRIVACIDADE</a>
                 </div>
                 <div className="footer-info">
-                    <h4>FERRAMENTASCLÁSSICAS@GMAIL.COM</h4>
-                    <h4>BELO HORIZONTE - MG</h4>
-                    <h4>300000-00</h4>
+                    <h4 className='h4-info-footer'>FERRAMENTASCLÁSSICAS@GMAIL.COM</h4>
+                    <h4 className='h4-info-footer'>BELO HORIZONTE - MG</h4>
+                    <h4 className='h4-info-footer'>300000-00</h4>
                 </div>
             </div>
             <div className="logo-social">
@@ -26,7 +26,7 @@ export const FooterComponent = () => {
                         <img src=".\src\assets\WhatsApp.png" alt="" />
                         <img src=".\src\assets\Instagram.png" alt="" />
                     </div>
-                    <h4>@FERRAMENTASCLÁSSICAS</h4>
+                    <h4 className='h4-footer'>@FERRAMENTASCLÁSSICAS</h4>
                 </div>
             </div>
         </div>

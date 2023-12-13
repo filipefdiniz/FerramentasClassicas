@@ -1,0 +1,65 @@
+.catalogo{
+    margin: 2px 30px;
+}
+.catalogo-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.catalogo-title {
+    border-radius: 10px;
+    background: #0E0F28; 
+}
+.ctg-title{
+    color: #FFF;
+    text-align: center;
+    font-weight: lighter; 
+    margin-block: 0;
+    margin: 30px;
+    padding: 5px;
+}
+.catalogo-filter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+#filter, .input-filter{
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 10px 25px 10px 5px;
+    border: 1px solid #BDBDBD;
+    font-family: Bebas Neue;
+}
+#filter{
+    width: 134px;
+    color: #626262;
+}
+
+.input-filter{
+    width: 163px;
+    color: #CBCBCB; 
+}
+
+.input-busca {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.btn-busca {
+    color: #FFF;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 15px;
+    border-radius: 10px;
+    background: #0E0F28;
+    padding: 5px;
+}
+
+.linha-catalogo{
+    margin-top: 20px;
+}

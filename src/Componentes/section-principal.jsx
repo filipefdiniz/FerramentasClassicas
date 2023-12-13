@@ -1,6 +1,7 @@
 import './section-principal.css';
 import { ProductComponent } from './Produto';
 import { FooterComponent } from './Footer';
+import { Link } from 'react-router-dom';
 export const PrincipalSection = () => {
 
     const products = [
@@ -33,7 +34,9 @@ export const PrincipalSection = () => {
                     <img src=".\src\assets\ferramentas.png" alt="" />
                 </div>
                 <div className="main1-btnCatalogo">
-                    <button className='btn-main1'>VER TODOS OS PRODUTOS</button>
+                    <Link className="redirect" to={'/catalogo'}>
+                        <button className='btn-main1'>VER TODOS OS PRODUTOS</button>
+                    </Link>
                 </div>
             </div>
             <div className="main2">
@@ -45,10 +48,10 @@ export const PrincipalSection = () => {
 
                 <h3 className='titulo-sobre'>FERRAMENTAS CLÁSSICAS DE QUALIDADE PARA USO!</h3>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, excepturi cum quasi rerum consequatur eos harum. Repudiandae excepturi ex nemo, delectus, neque numquam nostrum porro maxime pariatur hic laudantium nulla? <br />
+                <p className='sobre-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, excepturi cum quasi rerum consequatur eos harum. Repudiandae excepturi ex nemo, delectus, neque numquam nostrum porro maxime pariatur hic laudantium nulla? <br />
                 Nihil magnam commodi dolor unde atque vero incidunt voluptates voluptatibus doloribus, ducimus minima molestiae voluptate quae eius, delectus sapiente quisquam vitae eligendi fugiat ipsa beatae. Esse dolores totam voluptate molestias?</p>
 
-                <p>Nostrum, magni dicta asperiores earum quidem eligendi repellendus ea, quam officiis illo obcaecati possimus dolorum reiciendis quibusdam placeat quisquam itaque sequi perferendis? Itaque perspiciatis excepturi aliquam, beatae adipisci expedita. Aut?<br />
+                <p className='sobre-p'>Nostrum, magni dicta asperiores earum quidem eligendi repellendus ea, quam officiis illo obcaecati possimus dolorum reiciendis quibusdam placeat quisquam itaque sequi perferendis? Itaque perspiciatis excepturi aliquam, beatae adipisci expedita. Aut?<br />
                 Sapiente natus ipsum qui architecto deleniti officia voluptates pariatur, cum laboriosam. Ea alias quia omnis atque sequi velit itaque sint nihil aut eius explicabo reiciendis numquam, soluta mollitia quos repellat.</p>
             </div>
 
@@ -60,7 +63,9 @@ export const PrincipalSection = () => {
                 })}
                 </div>
                 <div className="button">
-                <button className="ver-catalogo">VER CATÁLOGO <img src=".\src\assets\arrow.png"></img></button>
+                <Link className="redirect" to={'/catalogo'}>
+                    <button className="ver-catalogo">VER CATÁLOGO <img src=".\src\assets\arrow.png"></img></button>
+                </Link>
                 </div>
             </div>
 
@@ -70,7 +75,7 @@ export const PrincipalSection = () => {
                         <button className="wpp">ENVIE UMA MENSAGEM <img src=".\src\assets\WhatsApp.png" alt="" /></button>
                     </div>
                     <div className="contato-title">
-                        <h3>ENTRE EM CONTATO CONOSCO PARA MAIS INFORMAÇÕES!</h3>
+                        <h3 className='h3-contato'>ENTRE EM CONTATO CONOSCO PARA MAIS INFORMAÇÕES!</h3>
                     </div>
                     <div className="contato-form">
                         <input type="text" placeholder='Nome'/>
@@ -80,7 +85,6 @@ export const PrincipalSection = () => {
                     </div>
                 </div>
             </div>
-            <FooterComponent />
         </div>
     );
 }

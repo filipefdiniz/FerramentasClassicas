@@ -52,7 +52,7 @@
     text-align: center;
 }
 @import url('https://fonts.googleapis.com/css2?family=Baumans&family=Bebas+Neue&family=Inter&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&display=swap');
-.sobre p{
+.sobre-p{
     font-family: Poppins;
     text-align: justify;
     font-size: 15px;
@@ -139,7 +139,7 @@
     width: 40px;
     height: 40px;
 }
-.contato-title h3 {
+.h3-contato {
     text-align: center;
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -173,6 +173,7 @@
 }
 .contato-form button{
     padding: 5px;
+    margin-top: 15px;
     border-radius: 8px;
     background: #0E0F28;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -181,4 +182,8 @@
     text-align: center;
     font-size: 20px;
     width: 80%;
+}
+
+.redirect{
+    text-decoration: none;
 }
