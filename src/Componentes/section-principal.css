@@ -1,0 +1,104 @@
+.main-1{
+    margin-top: 50px;
+}
+.princ-title{
+    color: #133552;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+.main1-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main1-img img{
+    width: 348px;
+}
+.main1-btnCatalogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.btn-main1{
+    padding: 10px 25px;
+    border-radius: 15px;
+    background: #0E0F28;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 23px;
+}
+
+.sobre {
+    background-color: #0E0F28;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 30px;
+}
+.sobre img{
+    width: 154px;
+}
+.titulo-sobre {
+    font-family: Bebas Neue;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Bebas+Neue&family=Inter&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&display=swap');
+.sobre p{
+    font-family: Poppins;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.catalogo-inicial {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.catalogo-title {
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+
+}
+.produtos {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: 0;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ver-catalogo{
+    background-image: url('./src/assets/madeira.png');
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Bebas Neue;
+    font-size: 25px;
+    padding: 10px 40px;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ver-catalogo img{
+    margin-left: 10px;
+}
