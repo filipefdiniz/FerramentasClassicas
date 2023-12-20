@@ -1,11 +1,15 @@
 .header-container{
-    background: #DBCFB4;
+    background: #F9F3E6;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 90px;
-    flex-shrink: 0;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .header-logo {
@@ -14,15 +18,73 @@
     margin-left: 20px;
     object-fit: contain;
 }
-.img-header{
-    width: 59px;
-    height: 59px;
-    flex-shrink: 0;
-}
 
+.logo-ferramentas{
+    color: #000;
+    text-align: center;
+    text-decoration-color: #000000;
+    width: 200px;
+}
+.header-menu-desk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 30px;
+    list-style: none;
+    font-weight: bold;
+    
+}
+.contato-wpp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contato-wpp img{
+    width: 25px;
+}
+.list-menu li{
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+.list-menu li:hover{
+    transform: scale(1.02);
+    text-decoration: underline;
+}
 .header-menu {
     display: flex;
     align-items: center;
     object-fit: contain;
     margin-right: 20px;
+    display: none;
 }
+
+.link-wpp{
+    color: #000;
+    text-decoration: none;
+}
+@media screen and (max-width:500px ){
+
+    .header-menu-desk{
+        display: none;
+    }
+    .header-menu{
+    display: block;
+    display: flex;
+    gap: 20px;
+    }
+    .header-logo{
+        margin-left: 10px;
+    }
+    .logo-ferramentas{
+        font-size: 15px;
+    }
+    .contato-wpp{
+    font-size: 12px;
+    }
+}
+    

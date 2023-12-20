@@ -1,189 +1,99 @@
-.main-1{
-    margin-top: 50px;
+*{
+    font-family: Baskervville;
 }
-.princ-title{
-    color: #133552;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-}
-.main1-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.main1-img img{
-    width: 348px;
-}
-.main1-btnCatalogo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-.btn-main1{
-    padding: 10px 25px;
-    border-radius: 15px;
-    background: #0E0F28;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-family: 'Bebas Neue', sans-serif;
-    color: #FFF;
-    text-align: center;
-    font-size: 23px;
+.main{
+    margin-top:150px;
 }
 
-.sobre {
-    background-color: #0E0F28;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 30px;
+.banner{
+    width: 100%;
+    max-width: 100%; /* Certifica-se de que a imagem não ultrapasse seu tamanho natural */
+    height: auto; /* Garante que a altura seja ajustada proporcionalmente à largura */
+    object-fit: cover;
+ 
 }
-.sobre img{
-    width: 154px;
-}
-.titulo-sobre {
-    font-family: Bebas Neue;
-    font-size: 30px;
-    font-weight: lighter;
-    text-align: center;
-}
-@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Bebas+Neue&family=Inter&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500&display=swap');
-.sobre-p{
-    font-family: Poppins;
-    text-align: justify;
-    font-size: 15px;
-}
-
-.catalogo-inicial {
-    display: flex;
-    flex-direction: column;
-    margin-top: 80px;
-}
-.catalogo-title {
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 30px;
+.main-produtos{
+    margin: 100px 50px;
 
 }
-.produtos {
-    display: flex;
-    gap: 30px;
-    margin: 30px;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: 0;
-}
-.button{
+.produtos-cards{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.ver-catalogo{
-    background-image: url('./src/assets/madeira.png');
-    background-size: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border: none;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Bebas Neue;
-    font-size: 25px;
-    padding: 10px 40px;
-    margin: 20px;
-    border-radius: 50px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.ver-catalogo img{
-    margin-left: 10px;
+
+.produtos-mobile{
+    display: none;
 }
 
 .contato {
-    background-image: url('./src/assets/madeira.png');
-    background-size: auto;
-    margin: 50px 0px;
-    padding: 30px 30px;
+    margin: 100px 50px;
 }
-.card-contato {
-    background-color: rgb(255, 255, 255, 0.5);
-    padding: 40px 30px;
-    border-radius: 10px;
+.title-produtos {
+    font-weight: bold;
+}
+.contato-info {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 90px 100px;
 }
 .btn-wpp {
-    
-}
-.wpp {
-    background-color: #36B752;
-    border: none;
-    font-family: Bebas Neue;
-    font-size: 22px;
-    color: white;
     border-radius: 10px;
-    padding: 5px 18px;
+    background: #36B752;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-
-}
-.wpp img{
-    width: 40px;
-    height: 40px;
-}
-.h3-contato {
-    text-align: center;
-    color: white;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Bebas Neue;
-    font-weight: lighter;
-    font-size: 25px;
-}
-.contato-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 10px;
+    padding: 8px 15px;
+    transition: 0.5s;
 }
-.contato-form input{
+.btn-email , .btn-insta{
     border: none;
-    width: 230px;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-family: Bebas Neue;
-    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 15px;
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.5s;
 }
 
-.contato-form textarea{
-    border: none;
-    width: 230px;
-    height: 100px;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-family: Bebas Neue;
-    font-size: 15px;
-}
-.contato-form button{
-    padding: 5px;
-    margin-top: 15px;
-    border-radius: 8px;
-    background: #0E0F28;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-family: 'Bebas Neue', sans-serif;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    width: 80%;
+.btn-wpp:hover, .btn-email:hover, .btn-insta:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border: solid 0.5px #c4c4c4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);;
 }
 
-.redirect{
+.link{
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .banner{
+    width: 100%;
+    }
+    .contato {
+        margin: 100px 30px;
+    }
+    .contato-info {
+        flex-direction: column;
+        gap: 50px;
+        margin: 50px 10px;
+    }
+    .produtos-cards {
+        display: none;
+    }
+    .produtos-mobile{
+        display: block;
+    }
+
 }
