@@ -8,7 +8,7 @@
 .banner{
     width: 100%;
     max-width: 100%; /* Certifica-se de que a imagem não ultrapasse seu tamanho natural */
-    height: auto; /* Garante que a altura seja ajustada proporcionalmente à largura */
+    height: 450px; /* Garante que a altura seja ajustada proporcionalmente à largura */
     object-fit: cover;
  
 }
@@ -78,8 +78,15 @@
 }
 
 @media screen and (max-width: 768px){
+    .main{
+        margin-top: 130px;
+    }
     .banner{
     width: 100%;
+    height: auto;
+    }
+    .main-produtos{
+        margin: 50px 30px;
     }
     .contato {
         margin: 100px 30px;
@@ -88,6 +95,9 @@
         flex-direction: column;
         gap: 50px;
         margin: 50px 10px;
+    }
+    .title-produtos{
+        font-size: 12px;
     }
     .produtos-cards {
         display: none;

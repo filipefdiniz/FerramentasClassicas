@@ -13,7 +13,7 @@ export const FooterComponent = () => {
         setTermsVisible2(!isTermsVisible2);
     }
     return (
-        <div className="footer">
+        <div className="footer" id='footer'>
             <div className="footer1">
                 <h4 onClick={toggleTermsVisibility}>Termos e condições</h4>
                 <h4 onClick={toggleTermsVisibility2}>Política de privacidade</h4>

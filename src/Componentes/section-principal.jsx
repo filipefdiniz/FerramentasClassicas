@@ -58,7 +58,7 @@ export const PrincipalSection = () => {
                     <hr />
                 </div>
                 <div className="contato-info">
-                    <Link className="link" to={"https://wa.me/31975789595/?text=Olá, gostaria de mais informações sobre as ferramentas!"}><button className="btn-wpp">Envie uma mensagem <img src=".\src\assets\whatswhite.png" alt="" /></button></Link>
+                    <Link className="link" to={"https://wa.me/31991342871/?text=Olá, gostaria de mais informações sobre as ferramentas!"}><button className="btn-wpp">Envie uma mensagem <img src=".\src\assets\whatswhite.png" alt="" /></button></Link>
                     <a className="link" href='mailto:Rondinellymaia@yahoo.com.br'><button className="btn-email"><img src=".\src\assets\envelope.png" alt="" />Rondinellymaia@yahoo.com.br</button></a>
                     <Link className="link" to={"https://www.instagram.com/ferramentasclassicas/"}><button className="btn-insta"><img src=".\src\assets\insta.png" alt="" />@ferramentasclassicas</button></Link>
                 </div>
