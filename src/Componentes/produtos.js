@@ -26,7 +26,7 @@ export const products = [
     },
     {
         image: "./src/assets/laminas.png",
-        title: "Lâminas para plainas"
+        title: "Lâminas para Plainas"
     },
     {
         image: "./src/assets/graminhos.png",
@@ -38,7 +38,7 @@ export const products = [
     },
     {
         image: "./src/assets/gabarito.png",
-        title: "Gabarito de afiação"
+        title: "Gabarito de Afiação"
     },
     {
         image: "./src/assets/formes.png",
@@ -46,7 +46,7 @@ export const products = [
     },
     {
         image: "./src/assets/faca-entalhe.png",
-        title: "Faca entalhe"
+        title: "Faca Entalhe"
     },
     {
         image: "./src/assets/esquadros.png",
@@ -66,7 +66,7 @@ export const products = [
     },
     {
         image: "./src/assets/bedames.png",
-        title: "bedames"
+        title: "Bedames"
     },
     {
         image: "./src/assets/router.png",
